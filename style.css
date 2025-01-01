@@ -68,27 +68,27 @@ body {
 /* Mobile styles */
 @media (max-width: 768px) {
     #countlabel {
-        font-size: 6em; /* Smaller size for mobile */
+        font-size: 6em; 
     }
 
     .box {
-        padding: 15px 25px; /* Adjust padding */
+        padding: 15px 25px; 
     }
 
     .buttons {
-        font-size: 1.2em; /* Smaller button size for mobile */
-        padding: 8px 16px; /* Adjust button padding */
+        font-size: 1.2em; 
+        padding: 8px 16px; 
     }
 
     .box header {
-        font-size: 1.2em; /* Smaller header text on mobile */
+        font-size: 1.2em; 
     }
 }
 
 /* Extra small devices (phones in portrait mode) */
 @media (max-width: 480px) {
     #countlabel {
-        font-size: 5em; /* Even smaller size for very small screens */
+        font-size: 5em; 
     }
 
     .box {
@@ -97,7 +97,7 @@ body {
 
     .buttons {
         font-size: 1em;
-        padding: 6px 12px; /* Adjust buttons for small screens */
+        padding: 6px 12px; 
     }
 
     .box header {
