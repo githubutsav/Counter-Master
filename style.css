@@ -65,3 +65,43 @@ body {
     transform: scale(1.1);
     background-color: #FFC107;
 }
+/* Mobile styles */
+@media (max-width: 768px) {
+    #countlabel {
+        font-size: 6em; /* Smaller size for mobile */
+    }
+
+    .box {
+        padding: 15px 25px; /* Adjust padding */
+    }
+
+    .buttons {
+        font-size: 1.2em; /* Smaller button size for mobile */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+
+    .box header {
+        font-size: 1.2em; /* Smaller header text on mobile */
+    }
+}
+
+/* Extra small devices (phones in portrait mode) */
+@media (max-width: 480px) {
+    #countlabel {
+        font-size: 5em; /* Even smaller size for very small screens */
+    }
+
+    .box {
+        padding: 10px 20px;
+    }
+
+    .buttons {
+        font-size: 1em;
+        padding: 6px 12px; /* Adjust buttons for small screens */
+    }
+
+    .box header {
+        font-size: 1em;
+    }
+}
+
