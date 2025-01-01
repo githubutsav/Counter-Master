@@ -5,5 +5,4 @@ Simple web application built with HTML, CSS, and JavaScript.It allows users to i
 
 ```
  git clone https://github.com/githubutsav/Counter-Master.git
-
 ```
